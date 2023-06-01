@@ -24,7 +24,7 @@ export const Column = styled.div`
   display: flex;
   flex-direction: column;
   text-align: left;
-  margin-left: 60px;
+  margin-left: 20px;
 `;
 
 export const Row = styled.div`
@@ -50,7 +50,7 @@ export const FooterLink = styled.a`
 `;
 
 export const Heading = styled.p`
-  font-size: 24px;
+  font-size: 18px;
   color: #333;
   margin-bottom: 40px;
   font-weight: bold;
