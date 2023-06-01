@@ -1,0 +1,29 @@
+p {
+  color: #333;
+}
+.infor {
+}
+.media {
+  display: flex;
+
+  align-items: center;
+}
+.icon {
+  margin-right: 5px;
+  font-size: x-large;
+  padding: 5px;
+  background: #f0f1f2;
+  color: #333;
+}
+.address {
+  display: flex;
+  align-items: center;
+}
+.mail {
+  display: flex;
+  align-items: center;
+}
+.phone {
+  display: flex;
+  align-items: center;
+}

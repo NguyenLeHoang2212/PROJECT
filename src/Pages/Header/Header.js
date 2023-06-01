@@ -14,9 +14,7 @@ import { Keyboard, Pagination, Navigation } from "swiper";
 import logo from "./logo.png";
 import { Link } from "react-router-dom";
 import { Nav, NavDropdown } from "react-bootstrap";
-import { SiZalo } from "react-icons/si";
-import { BsMessenger } from "react-icons/bs";
-import { BsTelephone } from "react-icons/bs";
+
 import { FcShop } from "react-icons/fc";
 import { BsSearch } from "react-icons/bs";
 import g1 from "./g1.jpg";
@@ -128,37 +126,50 @@ const Header = () => {
         </div>
       </div>
       <Nav className="menu">
-        <Nav.Link className="header-nav-link">Home</Nav.Link>
-        <NavDropdown title="Menu">
-          <NavDropdown.Item>
-            <Link to="/tradpizza" className=" dropdown-link">
-              2
+        <Nav.Link className="header-nav-link">Trang chủ</Nav.Link>
+        <NavDropdown className="product" title="Sản phẩm">
+          <NavDropdown.Item className="livingroom">
+            <Link to="/livingroom" className=" dropdown-link">
+              <NavDropdown className="livingroom" title="Phòng khách">
+                <NavDropdown.Item className="livingroom">
+                  <Link to="/sofa" className=" dropdown-link">
+                    Ghế sofa bộ
+                  </Link>
+                </NavDropdown.Item>
+
+                <NavDropdown.Item>
+                  <Link to="/tivi" className=" dropdown-link">
+                    Tivi
+                  </Link>
+                </NavDropdown.Item>
+              </NavDropdown>
             </Link>
           </NavDropdown.Item>
-          <NavDropdown.Item>
-            <Link to="/seapizza" className=" dropdown-link">
-              3
-            </Link>
-          </NavDropdown.Item>
-          <NavDropdown.Item>
-            <Link to="/mixedpizza" className=" dropdown-link">
-              4
+          <NavDropdown.Item className="bedroom">
+            <Link to="/bedroom" className=" dropdown-link">
+              <NavDropdown className="bedroom" title="Phòng ngủ">
+                <NavDropdown.Item className="bedroom">
+                  <Link to="/sofabed" className=" dropdown-link">
+                    Sofa giường
+                  </Link>
+                </NavDropdown.Item>
+
+                <NavDropdown.Item>
+                  <Link to="/bed" className=" dropdown-link">
+                    Giường ngủ
+                  </Link>
+                </NavDropdown.Item>
+              </NavDropdown>
             </Link>
           </NavDropdown.Item>
         </NavDropdown>
         <Nav.Link className="header-nav-link" href="#news">
-          News
+          Tin tức
         </Nav.Link>
         <Nav.Link className="header-nav-link" href="#contact">
-          Contact
+          Liên hệ
         </Nav.Link>
       </Nav>
-      <div className="icons">
-        <SiZalo className="icon" /> <br></br>
-        <BsMessenger className="icon" />
-        <br></br>
-        <BsTelephone className="icon" />
-      </div>
     </div>
   );
 };
