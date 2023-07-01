@@ -1,0 +1,157 @@
+.SingleProduct h1 {
+  text-align: center;
+  font-size: xx-large;
+  color: red;
+}
+.grid-single {
+  display: grid;
+  grid-template-columns: 0.7fr 2.3fr 2fr;
+  column-gap: 3.2rem;
+}
+.SingleProduct {
+  width: 70%;
+  margin: 0 auto;
+}
+.picture-chain {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.picture-chain img {
+  width: 100%;
+}
+
+.picture-main {
+  width: 100%;
+}
+.tt{
+  padding: 20px;
+  background: orange;
+  color: #fff;
+  width: 100%;
+  border: none;
+  font-size: larger;
+  margin-top: -10px;
+}
+.SingleProduct-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.grid-info {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 3.2rem;
+  font-size: 1.6rem;
+  line-height: 1.8;
+}
+
+.SingleProduct-heading {
+  font-size: 3.2rem;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.SingleProduct-prices {
+  font-size: 1.6rem;
+  line-height: 1.8;
+}
+
+.SingleProduct-pricing {
+  font-size: 3.2rem;
+}
+
+.SingleProduct-btn {
+  font-size: 1.8rem;
+  color: #fff;
+  background-color: #f02b2f;
+  border: none;
+  padding: 0.5rem 0.6rem;
+  border-radius: 0.8rem;
+  cursor: pointer;
+}
+.SingleProduct-btn2 {
+  font-size: 1.8rem;
+  color: #fff;
+  background-color: orange;
+  border: none;
+  padding: 1.2rem 1.6rem;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  margin-top: -20px;
+  width: 100%;
+}
+.qty button {
+  padding: 20px;
+}
+#root
+  > div.SingleProduct
+  > div.grid-single.container-lg
+  > div:nth-child(2)
+  > div {
+  z-index: 3;
+}
+
+@media (max-width: 62em) {
+  .grid-info {
+    font-size: 1.8rem;
+  }
+
+  .SingleProduct-prices {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 56em) {
+  .grid-single {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3.2rem;
+    row-gap: 6.4rem;
+  }
+
+  .picture-chain {
+    grid-row: 2/3;
+    grid-column: span 2;
+
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .picture-chain img {
+    width: 18%;
+  }
+}
+
+@media (max-width: 48em) {
+  .grid-single {
+    grid-template-columns: 1fr;
+  }
+
+  #root > div.SingleProduct > div.grid-single.container-lg > div:nth-child(2) {
+    width: 92% !important;
+  }
+
+  .picture-chain {
+    grid-row: 2/3;
+    grid-column: unset;
+    justify-content: unset;
+  }
+
+  #root
+    > div.SingleProduct
+    > div.grid-single.container-lg
+    > div:nth-child(2)
+    > div:nth-child(3) {
+    top: 0 !important;
+    left: 0% !important;
+    margin: 0 !important;
+  }
+}
+
+@media (max-width: 36em) {
+  #root > div.SingleProduct > div.grid-single.container-lg > div:nth-child(2) {
+    width: 100% !important;
+  }
+}

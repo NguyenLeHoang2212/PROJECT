@@ -1,0 +1,76 @@
+
+.page-title h2 {
+  color: red;
+  font-size: 30px;
+}
+.rowss Form {
+  width: 80%;
+  margin: 30px auto;
+}
+.page-title {
+  text-align: center;
+}
+.contact{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.cmt{
+  padding: 50px;
+}
+.if {
+  padding-top: 20px;
+}
+.if span,
+.if a {
+  font-size: larger;
+}
+.form_email {
+  font-size: 1.6rem;
+}
+.form_email .groupss{
+  
+  
+  margin-top: 15px;
+}
+.form_email .groupsss{
+  
+  
+  margin-top: 15px;
+}
+.form_email .form-control {
+  width: 100%;
+  padding: 15px;
+}
+.bodyss{
+  padding: 50px;
+}
+.email_btn {
+  font-size: 1.8rem;
+  margin-top: 2.4rem;
+  cursor: pointer;
+  background: red;
+  color: aliceblue;
+}
+
+.form_email .groupss .labels{
+  width: 30%;
+}
+.form_email .groupss .conntrol{
+  width: 70%;
+}
+.form_email .groupss .conntrols{
+  width: 70%;
+}
+.form_email .groupsss .controls {
+  width: 100%;
+  padding-top: 70px;
+  
+}
+@media (max-width:767px){
+  .rowss{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+  }
+}

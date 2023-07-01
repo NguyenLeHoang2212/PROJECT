@@ -1,0 +1,211 @@
+* {
+  margin: 0; /*ở nhà cho nó sát lề luôn*/
+  padding: 0;
+}
+
+#products {
+  /* background:gold; */
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.product2 {
+  width: calc(100% / 4);
+  text-align: center;
+  display: flex;
+}
+#products .product2 .list {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+#products .list .product {
+  overflow: hidden; /*Khi khai báo ở cha thì con không bao giờ bị tràn ra ngoài*/
+  transition: 2s;
+  margin: 0 10px;
+
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+#products .list .product img {
+  width: 100%;
+  transition: 3s;
+}
+#products .list .product:hover img {
+  /* background: green; */
+  transform: scale(1.2);
+  transition: 3s;
+}
+#products .list .product:hover {
+  /*Khi hover lên thì mất bóng*/
+  box-shadow: 0px 0px 0px;
+}
+#products .list .product:hover {
+  transform: translateY(-10px);
+}
+/* img:hover{
+        transform: translate(0px,-30px);
+    } */
+#products .list .product .img_product {
+  overflow: hidden; /* tạo 1 div cho img r để overflow tại đây làm cha để nó ko vượt qua div chữ bên dưới đc*/
+}
+#products .list .product .img_product {
+  padding: 0px 0px;
+}
+
+.prices {
+  color: red;
+}
+
+.oldprice .prices {
+  color: #777 !important;
+  font-size: 8px;
+  font-weight: normal;
+  text-decoration: line-through;
+  margin-right: 6px;
+}
+
+.specialprice {
+  margin: 0;
+  padding: 3px 0;
+  display: inline;
+  margin-right: 5px;
+}
+
+.specialprice .prices {
+  font-size: 9px;
+  font-weight: 600;
+}
+.name a h4 {
+  color: #446084;
+}
+
+.add {
+  border: 1px solid #ff7600 !important;
+  color: #ff7600 !important;
+  line-height: 14px;
+  outline: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  display: none;
+}
+.product {
+  position: relative;
+}
+.product:hover {
+  .add {
+    display: block;
+  }
+}
+
+@media (max-width: 767px){
+  #products {
+    /* background:gold; */
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .product2 {
+    width: calc(100% / 2);
+    text-align: center;
+    display: flex;
+  }
+  #products .product2 .list {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .product1 {
+    width: calc(100% / 2);
+    text-align: center;
+    display: flex;
+  }
+  #products .product1 .list {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  #products .list .product {
+    overflow: hidden; /*Khi khai báo ở cha thì con không bao giờ bị tràn ra ngoài*/
+    transition: 2s;
+    margin: 0 10px;
+  
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
+      rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  }
+  #products .list .product img {
+    width: 100%;
+    transition: 3s;
+  }
+  #products .list .product:hover img {
+    /* background: green; */
+    transform: scale(1.2);
+    transition: 3s;
+  }
+  #products .list .product:hover {
+    /*Khi hover lên thì mất bóng*/
+    box-shadow: 0px 0px 0px;
+  }
+  #products .list .product:hover {
+    transform: translateY(-10px);
+  }
+  /* img:hover{
+          transform: translate(0px,-30px);
+      } */
+  #products .list .product .img_product {
+    overflow: hidden; /* tạo 1 div cho img r để overflow tại đây làm cha để nó ko vượt qua div chữ bên dưới đc*/
+  }
+  #products .list .product .img_product {
+    padding: 0px 0px;
+  }
+  
+  .prices {
+    color: red;
+  }
+  
+  .oldprice .prices {
+    color: #777 !important;
+    font-size: 8px;
+    font-weight: normal;
+    text-decoration: line-through;
+    margin-right: 6px;
+  }
+  
+  .specialprice {
+    margin: 0;
+    padding: 3px 0;
+    display: inline;
+    margin-right: 5px;
+  }
+  
+  .specialprice .prices {
+    font-size: 9px;
+    font-weight: 600;
+  }
+  .name a h4 {
+    color: #446084;
+  }
+  
+  .add {
+    border: 1px solid #ff7600 !important;
+    color: #ff7600 !important;
+    line-height: 14px;
+    outline: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    display: none;
+  }
+  .product {
+    position: relative;
+  }
+}

@@ -1,0 +1,180 @@
+.bags {
+  background: white;
+}
+.bag {
+  display: flex;
+
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  padding: 30px 40px;
+}
+
+.count .qty {
+  text-align: center;
+}
+.top {
+  padding-top: 30px;
+  width: 80%;
+}
+.titlebag {
+ 
+  text-align: center;
+  font-size: larger;
+}
+.titlebag h1 {
+  color: black;
+}
+.names {
+  display: flex;
+  color: black;
+  justify-content: space-between;
+}
+.priceqty {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.qty {
+  display: flex;
+}
+
+.bots {
+  display: flex;
+  
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.details {
+  display: flex;
+
+  justify-content: space-around;
+  padding-top: 15px;
+}
+.names h3 {
+  font-size: x-large;
+  color: blueviolet;
+}
+.detail {
+  width: 60%;
+}
+.inforoder {
+  
+  padding: 60px 20px;
+  border: 1px solid gray;
+  text-align: center;
+  height: 200px;
+  margin-top: 50px;
+  
+}
+.inforprice {
+  display: flex;
+}
+.inforoder a{
+  width: 100%;
+}
+.inforoder button {
+  padding: 20px;
+
+  width: 100%;
+  margin: 30px auto;
+  background: red;
+  color: white;
+  border: none;
+  margin-top: 40px;
+}
+.sum {
+  font-size: larger;
+}
+.bill {
+  font-size: larger;
+}
+.inforprice {
+  padding-top: 30px;
+}
+.note {
+  width: 80%;
+}
+.count {
+  background: #777;
+  text-align: center;
+}
+.count p {
+  padding: 10px 15px;
+  
+}
+
+.trash {
+  padding: 10px;
+  font-size: x-large;
+}
+.priceqty h4 {
+  color: #777;
+}
+.priceqty .qty button {
+  padding: 7px 13px;
+}
+.inforbh {
+  width: 20%;
+}
+.note .text {
+  width: 70%;
+ padding: 80px;
+  border: 1px solid #777;
+}
+.inforbh p {
+  margin: 0 auto;
+}
+.note h3 {
+  font-size: x-large;
+  padding-bottom: 10px;
+}
+.inforprice {
+  display: flex;
+  justify-content: space-between;
+}
+.lfimg {
+  width: 100px;
+}
+.continue p {
+  text-align: center;
+  font-size: 20px;
+}
+@media (max-width:767px){
+  .bag{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .bots{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .top{
+    width: 100%;
+    margin-top: 10px;
+  }
+  /* .inforoder{
+   
+    margin-top: 20px;
+    border: 1px solid gray;
+    text-align: center;
+    height: 200px;
+    
+  } */
+  
+    /* padding: 60px 20px; */
+    
+    /* margin-left: 60px; */
+
+  
+  
+  .inforbh{
+    width: 90%;
+    margin:10px auto;
+  }
+}

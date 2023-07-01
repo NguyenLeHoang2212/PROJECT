@@ -1,29 +1,124 @@
-p {
-  color: #333;
-}
-.infor {
-}
 .media {
   display: flex;
-
+  padding-top: 20px;
   align-items: center;
 }
-.icon {
-  margin-right: 5px;
-  font-size: x-large;
 
-  background: #f0f1f2;
-  color: #333;
+.icon {
+  font-size: large;
+  color: #f1f1f1;
+
+  background: #446084;
 }
+
 .address {
   display: flex;
   align-items: center;
+  padding-top: 20px;
 }
+
 .mail {
   display: flex;
   align-items: center;
+  padding-top: 20px;
 }
+
 .phone {
   display: flex;
   align-items: center;
+  padding-top: 20px;
+}
+
+.column {
+  padding-left: 50px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: #f1f1f1;
+  padding: 80px;
+  background: #446084;
+
+}
+
+.infor .address p {
+  color: #f1f1f1;
+  padding-left: 5px;
+}
+
+.infor .phone p {
+  color: #f1f1f1;
+  padding-left: 5px;
+}
+
+.infor .mail p {
+  color: #f1f1f1;
+  padding-left: 5px;
+}
+
+.infor h3 {
+  color: #f1f1f1;
+}
+
+.media p {
+  color: #f1f1f1;
+  margin-left: 8px;
+}
+
+h4 {
+  color: #f1f1f1;
+  padding-top: 20px;
+}
+
+@media (max-width: 767px) {
+  .container {
+
+    justify-content: unset;
+
+
+  }
+
+  .service {
+    width: calc(100%/2);
+  }
+
+  .address {
+    width: calc(100%/2);
+  }
+
+  .medias {
+    width: calc(100%/2);
+    margin-top: 10px;
+    text-align: left;
+    align-items: start;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+
+  }
+.infor{
+  margin-top: 40px;
+}
+  .service {
+    width: 100%;
+    margin-bottom: 10px;
+
+
+  }
+
+  .service a h4 {
+    font-size: 13px;
+
+  }
+
+  .medias {
+    width: 100%;
+    margin-top: 40px;
+  }
 }
