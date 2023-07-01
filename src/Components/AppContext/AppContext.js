@@ -53,7 +53,7 @@ export const AppProvider = ({ children }) => {
     if (id !== undefined) {
       const CurrH = data.allproducts.find((pizza) => pizza.id === id);
       setCurr({ ...CurrH, qty: 1 });
-      // setCart([...cart, { ...kq, qty: 1 }]);
+     
     }
   };
 
