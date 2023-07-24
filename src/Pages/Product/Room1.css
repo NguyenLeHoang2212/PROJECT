@@ -1,0 +1,25 @@
+.room1 {
+  width: 80%;
+  margin: 0 auto;
+}
+.inf p {
+  padding-top: 20px;
+}
+.tittle .ima {
+  width: 70%;
+}
+.inf h2 {
+  padding-top: 20px;
+  color: #777;
+}
+.tittle {
+  padding: 30px 30px;
+}
+.tittle h1 {
+  color: #005bc5;
+  text-align: center;
+}
+.tittle img {
+  padding-top: 30px;
+  width: 60%;
+}

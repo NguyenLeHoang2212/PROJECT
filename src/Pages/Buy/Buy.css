@@ -1,0 +1,179 @@
+button {
+  cursor: pointer;
+}
+.titless h1 {
+  text-align: center;
+  color: orange;
+  font-size: xx-large;
+  margin-top: -50px;
+}
+.buys {
+  display: flex;
+
+  width: 90%;
+  margin: 30px auto;
+}
+.section-customer-information {
+  display: none;
+}
+.main-img {
+  width: 30px;
+}
+Form {
+  background: white;
+  width: 60%;
+  padding: 35px;
+}
+
+.sidebarss {
+  width: 40%;
+  
+}
+.bagss {
+  margin-top: 50px;
+}
+.fieldwrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.login {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.displaydiscount {
+  margin-top: 30px;
+}
+.wrapper input {
+  padding: 15px;
+}
+.btn-content1 {
+  width: 96%;
+  border: none;
+  padding: 15px;
+  background: blue;
+  margin-top: 10px;
+}
+.btn-content1 span {
+  color: white;
+}
+.back {
+  text-align: center;
+
+  width: 92%;
+  margin-top: 10px;
+  padding: 10px;
+}
+.back a {
+  text-decoration: none;
+  font-size: x-large;
+}
+#listcoupon {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#listcoupon p {
+  color: blue;
+  border: 1px solid blue;
+  border-top-left-radius: -50%;
+  padding: 8px;
+  margin-top: 10px;
+}
+.loginbtn a button {
+  background: red;
+  color: white;
+  font-size: larger;
+  padding: 12px;
+  border: none;
+}
+.checkout {
+  color: red;
+  border: 1px solid red;
+  padding: 8px;
+}
+.field-input {
+  padding: 15px;
+  width: 90%;
+  margin-top: 10px;
+}
+
+.section-content-text {
+  margin-top: 10px;
+}
+.section-content-text a {
+  margin-left: 10px;
+}
+a {
+  cursor: pointer;
+}
+.field-inputs {
+  padding: 15px;
+}
+.selection {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin-top: 10px;
+}
+
+
+.radio-wrappers {
+  width: 92%;
+  border: 1px solid gray;
+  margin-top: 5px;
+  padding: 10px;
+}
+.radio-wrappers label {
+  display: flex;
+
+  align-items: center;
+  padding-left: 10px;
+}
+.blank-slate {
+  display: none;
+}
+.primary {
+  margin-left: 10px;
+}
+.radio-content-input {
+  margin-left: 10px;
+}
+.countss p{
+  text-align: center;
+  background: grey;
+  padding: 15px;
+}
+.qtys{
+  display: flex;
+  padding: 15px;
+}
+.priceqty .qtys button {
+  padding: 7px 13px;
+}
+@media (max-width:767px){
+  .buys {
+    display: block;
+ 
+    width: 90%;
+    margin: 0 auto;
+  }
+ .buys .formmm{
+  width: 100%;
+  margin-top: 10px;
+ }
+ .sidebarss{
+  width: 100%;
+  margin-top: 10px;
+ }
+ .checkout{
+  display: none;
+ }
+}
+.trash{
+  padding: 5px;
+ 
+}

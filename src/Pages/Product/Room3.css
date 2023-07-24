@@ -1,0 +1,28 @@
+.room3 {
+  width: 80%;
+  margin: 0 auto;
+}
+.inf p {
+  padding-top: 20px;
+}
+.tittle .ima {
+  width: 70%;
+  margin: 0 auto;
+}
+.inf h2 {
+  padding-top: 20px;
+  color: #777;
+}
+.tittle {
+  padding: 30px 30px;
+  margin: 0 auto;
+  text-align: center;
+}
+.tittle h1 {
+  text-align: center;
+  color: #005bc5;
+}
+.tittle img {
+  padding-top: 30px;
+  width: 60%;
+}

@@ -1,0 +1,12 @@
+.cardimg {
+  width: 60px;
+  padding-top: 10px;
+}
+.cards {
+  display: flex;
+  color: black;
+  width: 400px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ 
+}
